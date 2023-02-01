@@ -30,7 +30,7 @@ across any node that shares a filesystem.
 To check current status, run: 
 `jug status plot_radar_data.py`. 
 That will give you the current status. To start running, 
-`jug execute plot_radar_data.py > out.txt 2>&1 &`. 
+`jug execute plot_radar_data.py >> out.txt 2>&1 &`. 
 Run that command for as many processors that you want to run the 
 script on. 
 
